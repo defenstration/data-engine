@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-engine"
+version = "0.1.0"
+description = "Manufacturing analytics and systems integration platform"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.setuptools]
+packages = ["simulator"]
