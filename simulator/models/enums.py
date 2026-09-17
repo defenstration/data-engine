@@ -21,3 +21,12 @@ class StationState(Enum):
     SETUP = "setup"
     STARVED = "starved"
     BLOCKED = "blocked"
+
+class EventType(Enum):
+    QUEUE_ENTERED = "queue_entered"
+    PROCESS_STARTED = "process_started"
+    PROCESS_COMPLETED = "process_completed"
+    INSPECTION_PASSED = "inspection_passed"
+    INSPECTION_FAILED = "inspection_failed"
+    STATION_ENTERED = "station_entered"
+    STATION_EXITED = "station_exited"
