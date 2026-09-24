@@ -16,7 +16,7 @@ PRODUCTION_LINE = [
         name="Receiving",
         station_type=StationType.RECEIVING,
         sequence=1,
-        cycle_time_minutes=10.0,
+        cycle_time_minutes=15.0,
     ),
     Station(
         station_id="RECV_INSP",
